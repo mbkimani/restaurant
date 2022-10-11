@@ -1,0 +1,27 @@
+{
+    "heading": "This is the best restaurant",
+    "para": "Forget what they offering out there, this is the best restaurant for sure"
+    ,"menu": {
+        "risotto":["Creamy Vegetable Zucca Risotto 1300 NEW",
+        "Broccolini, Peppers, Tomato and Pumpkin seeds",
+        "Risotto Al Polo 1700",
+        "Chicken Pieces with Mushrooms and Spinach",
+        "Green Risotto Gamberi 2300 (N)"],
+        "fish and seafood":["Stir Fried Baby Octopus and Calamari 2000",
+        "With Vegetables, Soy and Oyster Sauce, Rice Noodles",
+        "Fresh Deep-fried Lake ‘Ngege’ 2000",
+        "Whole Tilapia served with Tomato basil salsa, Kale and Ugali",
+        "Seychellois Coconut fish Curry 2100",
+        
+        "Simmered in Aromatic Spiced Coconut Milk, steamed Rice",
+        "Traditional “Fish & Chips” 2000",
+        "Chucky Chips and Tartar Sauce",
+        "Salmon fillet “Florentine” 3200"],
+        "meat and fowl": ["Cheesy Parmesan Chicken 2100",
+        "Over sautéed local Chard and Garlic Mash, Marinara Sauce",
+        "Grilled Pork Chops 2100 (P)",
+        "Buttered Vegetables and Potato Mousseline",
+        "Caramelized Pineapple Relish",
+        "Slow cooked Beef Short Rib 2200"]
+    } 
+}
