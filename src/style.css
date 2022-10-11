@@ -27,7 +27,7 @@ body {
 
 .hometabs li:hover, .hometabs li::selection{
     background-color: lightgrey;
-    border: 3px solid ;
+    border: 1px solid ;
 }
 
 .hometabs li a::selection {
@@ -44,6 +44,7 @@ body {
     border: 1px solid black;
     display: block;
     grid-area: 2/ 1 / span 1/ span 3;
+    background-color: lightgrey;
 }
 
 .menugrid{

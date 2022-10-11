@@ -1,12 +1,11 @@
 import Data from "./data.json";
 
 export default function menu_meat() {
-  const menu = document.createElement("div");
   const li = document.createElement("li");
 
   const meatItems = document.createElement("div");
   meatItems.classList.add("meatMenu");
- // meatItems.setAttribute("class", "hide");
+
   meatItems.classList.add("menu");
   const meat = Data.menu["meat and fowl"];
   const a = document.createElement("a");
@@ -24,9 +23,6 @@ export default function menu_meat() {
 
   menuArr.push(li);
   menuArr.push(meatItems);
-  /*a.addEventListener("click", () => {
-    meatItems.removeAttribute("id", "hide");
-  });*/
 
   return menuArr;
 }

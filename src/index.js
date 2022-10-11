@@ -4,8 +4,6 @@ import menu_fish from "./menu_fish";
 import menu_meat from "./menu_meat";
 import "./style.css";
 
-console.log("Switched a bit; The start of a restaurant webpage");
-
 const content = document.querySelector("#content");
 const menuGrid = document.createElement("div");
 const tabOne = menu_risotto()[0];
@@ -17,16 +15,6 @@ const menuThree = menu_meat()[1];
 const tabs = document.createElement("div");
 
 menuGrid.classList.add("menugrid");
-
-//menuGrid.appendChild(menu_risotto()[0]);
-//menuGrid.appendChild(menu_fish()[0]);
-//menuGrid.appendChild(menu_meat()[0]);
-//menuGrid.appendChild(menu_risotto()[1]);
-//menuGrid.appendChild(menu_fish()[1]);
-//menuGrid.appendChild(menu_meat()[1]);
-
-console.log(menu_fish());
-console.log(menu_risotto());
 
 tabs.classList.add("hometabs");
 const tabsArray = [tabOne, tabTwo, tabThree];
@@ -48,9 +36,6 @@ function tabular() {
 function showStuff(event) {
   tabsArray.forEach((soloTab) => {
     if (soloTab.querySelector("a").textContent == event.target.textContent) {
-      //    soloTab
-      //      .querySelector("a")
-      //      .parentElement.nextElementSibling.removeAttribute("id", "hide");
       menusArray.forEach((menuItem) => {
         if (
           menuItem.classList.contains(

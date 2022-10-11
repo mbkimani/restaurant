@@ -1,12 +1,11 @@
 import Data from "./data.json";
 
 export default function menu_risotto() {
-  const menu = document.createElement("div");
   const li = document.createElement("li");
 
   const risottoItems = document.createElement("div");
   risottoItems.setAttribute("class", "risottoMenu");
-  //risottoItems.setAttribute("id", "hide");
+
   risottoItems.classList.add("menu");
   const risotto = Data.menu.risotto;
   const a = document.createElement("a");
@@ -20,14 +19,9 @@ export default function menu_risotto() {
     risottoItems.appendChild(p);
   }
 
-  menu.appendChild(li);
-  menu.appendChild(risottoItems);
   const menuArr = [];
   menuArr.push(li);
   menuArr.push(risottoItems);
-  /*a.addEventListener("click", () => {
-    risottoItems.removeAttribute("id", "hide");
-  });*/
 
   return menuArr;
 }
